@@ -59,46 +59,6 @@ public class deplacementROBOT : MonoBehaviour
               _agent.SetDestination(nextWaypoints[_destination].position);
           }
 
-        /*  if (Utilitaires.ObjetVisible(gameObject, joueur.gameObject, 80.0f, 25.0f))
-          {
-              chasseJoueur = true;
-              lastKnownPlayerPosition = joueur.transform.position;
-          }
-          else
-          {
-              if (chasseJoueur && Vector3.Distance(transform.position, lastKnownPlayerPosition) <= _agent.stoppingDistance)
-              {
-                  chasseJoueur=false;
-              }
-          }
-
-          if (chasseJoueur)
-          {
-              ChasePlayer();
-          }
-          else
-          {
-              Patrol();
-          }
-
-          void ChasePlayer()
-          {
-              _agent.SetDestination(joueur.transform.position);
-          }
-
-          void Patrol()
-          {
-              if (!_agent.pathPending && _agent.remainingDistance <= _agent.stoppingDistance)
-              {
-                  _destination++;
-                  if (_destination == nextWaypoints.Length)
-                  {
-                      _destination = 0;
-                  }
-                  _agent.SetDestination(nextWaypoints[_destination].position);
-              }
-          }  */
-
         // cheat code for teleportation
         if (Input.GetKeyDown(KeyCode.T))
         {
