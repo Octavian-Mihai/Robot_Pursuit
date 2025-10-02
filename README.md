@@ -79,20 +79,20 @@ After any ending, the player can **restart** the game.
 
   
 
-#### 📸 **Screenshots**
+### 📸 **Screenshots**
 
 ##### 🎬 **Opening Scene**
-![Opening scene](images/PastedGraphic.png)
+![Opening Scene](images/PastedGraphic.png)
 ##### 🕹️ **Game Surface**
-
+![Game Interface](images/PastedGraphic5.png)
 #####  🤖 **Robot Chase**
-
+![Robot Chase](images/PastedGraphic1.png)
 ##### 🧲 **Magnetic Cube**
-
+![Magnetic Cube](images/PastedGraphic3.png)
 ##### 🚪 **Victory Scene**
-
+![Victory Scene](images/PastedGraphic3.png)
 ##### 🚪 **Lost Scene**
-
+![Lost Scene](images/PastedGraphic2.png)
   
 
 #### 🙋‍♂️ **Credits**
