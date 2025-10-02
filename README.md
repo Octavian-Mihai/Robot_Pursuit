@@ -82,7 +82,7 @@ After any ending, the player can **restart** the game.
 #### 📸 **Screenshots**
 
 ##### 🎬 **Opening Scene**
-
+![Opening scene](images/PastedGraphic.png)
 ##### 🕹️ **Game Surface**
 
 #####  🤖 **Robot Chase**
