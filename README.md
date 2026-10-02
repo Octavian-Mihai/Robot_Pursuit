@@ -1,5 +1,7 @@
 # Robot Pursuit
 
+See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for an architecture diagram.
+
 #### 🕵️‍♂️ **Escape from the Robot Complex**
 
 A stealth-based 3D escape game developed in Unity.  
