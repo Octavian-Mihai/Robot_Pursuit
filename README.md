@@ -1,7 +1,5 @@
 # Robot Pursuit
 
-See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for an architecture diagram.
-
 #### 🕵️‍♂️ **Escape from the Robot Complex**
 
 A stealth-based 3D escape game developed in Unity.  
@@ -101,3 +99,19 @@ After any ending, the player can **restart** the game.
 
 - **Developer:** Octavian Mihai
 - **Game Engine:** Unity 2022.3.17f1
+
+
+## Architecture
+
+```mermaid
+flowchart TD
+    Input([W/S/A/D]) --> PM["deplacementJoueur.cs<br/>player movement"]
+    Robots["deplacementROBOT.cs<br/>patrol / chase"] -->|detect / catch| PM
+    Door["OuverturePorte.cs<br/>doors"] --> PM
+    Spin["rotationCube.cs<br/>pickups"] --> PM
+    Util["Utilitaires.cs<br/>shared helpers"] --- PM & Robots & Door
+    PM --> Game[Game state: timer · win / lose]
+    Robots --> Game
+```
+
+More detail: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
